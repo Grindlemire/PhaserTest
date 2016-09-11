@@ -1,0 +1,24 @@
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+#app {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    overflow: hidden;
+}
